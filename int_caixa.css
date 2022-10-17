@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@300 & family= Poppins & family= Roboto:wght@100 & display=swap');
+
+body {
+    background-color: rgb(107, 197, 252);
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cabesalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.valorescent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valoresnotas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valores_finais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.observaçao {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.obs_caixa {
+    padding: 8px;
+}
+
+.botao_contar {
+    padding: 1px;
+}
+
+.botao_div {   
+    padding: 20px;
+}
+
+.botao_retorno {
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Inter, sans-serif;   
+    font-size: 15px; 
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+
+    input {
+        width: 100px;
+        height: 8px;
+    }
+
+    .data {
+        width: 100px;
+        height: 10px;
+    }
+
+    .obs_caixa {
+        width: 200px;
+    }
+
+    .observaçao {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+

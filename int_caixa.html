@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="int_caixa.css">
+    <title>BVI sitema</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <main class="corpo">
+
+        <div>
+            <h1>Barraca Vovó Iká</h1>
+            <h2>Fechamento</h2>
+        </div>
+
+        <div class="container">
+            <div class="cabesalho">
+        
+                <div>
+                    <label>data:</label>
+                    <input type="date" class="data">
+                </div>
+    
+                <div>
+                    <input type="radio" id="cum">
+                    <label>João</label>
+    
+                    <input type="radio" id="cum">
+                    <label>Vinícius</label>       
+                </div>
+                
+            </div>
+                <div class="valores">
+                
+                    <div class="valorescent">
+                        <h2>moedas</h2>
+    
+                        <label>0,05</label>
+                        <input type="number">
+    
+                        <label>0,10</label>
+                        <input type="number">
+    
+                        <label>0,25</label>
+                        <input type="number">
+    
+                        <label>0,50</label>
+                        <input type="number">
+    
+                        <label>1,00</label>
+                        <input type="number">
+    
+                    </div>
+                    <div class="valoresnotas">
+                        <h2>notas</h2>
+    
+                        <label>2,00</label>
+                        <input type="number">
+    
+                        <label>5,00</label>
+                        <input type="number">
+    
+                        <label>10,00</label>
+                        <input type="number">
+    
+                        <label>20,00</label>
+                        <input type="number">
+    
+                        <label>50,00</label>
+                        <input type="number">
+    
+                        <label>100,00</label>
+                        <input type="number">
+    
+                        <label>200,00</label>
+                        <input type="number">
+                    </div>
+                </div>
+    
+                <h2>valores:</h2>
+                <div class="valores_finais">
+    
+                    <div>
+                        <label>Total (caixa):</label> 
+                        <input type="number" id="total_caixa">
+                    </div>
+                    
+                    <div>
+                        <label>Total de vendas:</label>
+                        <input type="number" id="total_caixa">
+                    </div>
+             
+                    <div>
+                        <label>Total de vendas (cartão):</label>
+                        <input type="number" id="total_caixa">
+                    </div>
+                    
+                    <div>
+                        <label>Total de saídas (CX):</label>
+                        <input type="number" id="total_caixa">
+                    </div>
+                    
+                    <div>
+                        <label>Total de saídas (NCX):</label>
+                        <input type="number" id="total_caixa">
+                    </div>
+                    
+                </div>
+    
+                <h2>obsevações:</h2>
+    
+                <div class="observaçao">
+                    <input type="text" class="obs_caixa">
+                </div>
+        </div>
+        
+    </main>
+
+    <div class="botao_div">
+        <button onclick="download()" class="botao_contar">Contabilizar</button>
+        
+        <button><a href="interface.html" class="botao_retorno">Voltar</a></button>
+    </div>
+
+    <script src="int_caixa.js"></script>
+</body>
+</html>
